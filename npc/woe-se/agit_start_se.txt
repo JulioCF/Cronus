@@ -3,7 +3,7 @@
 //===== By: ==================================================
 //= L0ne_W0lf
 //===== Current Version: =====================================
-//= 1.0
+//= 1.a
 //===== Description: =========================================
 //= Auto Start for War of Emperium
 //= To know how to set up WoE times, go to doc\woe_time_explanation.txt
@@ -13,7 +13,16 @@
 //= 3=Wednesday, 4=Thursday, etc.
 //===== Additional Comments: =================================
 //= 1.0 Copy/Paste of the original setter.
+//= 1.a Informações complementares por JulioCF
 //============================================================
+// Mais explicações por JulioCF
+//
+// if((gettime(4)==0) ==0 é o dia da semana aque terá a woe, 0 é Domingo, seguindo assim os dias, veja mais a baixo
+// (gettime(3)>=18 >=21 é a hora que vai começar
+// gettime(3)<23) <23 é a hora que vai terminar
+//
+// ==0 Domingo, ==1 Segunda, ==2 Terça, ==3 Quarta, ==4 Quinta, ==5 Sexta, ==6 Sábado
+//===========================================================
 
 // WoE Start/Stop times
 //============================================================
