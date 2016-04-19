@@ -30,9 +30,18 @@
 //=	Removed treasure spawning function calls. (No longer needed)
 //= 2.0 Added WoE Battle Log support for broadcasts. [L0ne_W0lf]
 //= 2.0a Removed some brackets
+//= 2.0b Informações complementares por JulioCF
 //============================================================
 //| To know how to set up WoE times, go to doc\woe_time_explanation.txt
 // WoE Start/Stop times
+//======================================
+// Mais explicações por JulioCF
+//
+// if((gettime(4)==0) ==0 é o dia da semana aque terá a woe, 0 é Domingo, seguindo assim os dias, veja mais a baixo
+// (gettime(3)>=18 >=21 é a hora que vai começar
+// gettime(3)<23) <23 é a hora que vai terminar
+//
+// ==0 Domingo, ==1 Segunda, ==2 Terça, ==3 Quarta, ==4 Quinta, ==5 Sexta, ==6 Sábado
 //======================================
 -	script	Agit_Event	-1,{
 	end;
